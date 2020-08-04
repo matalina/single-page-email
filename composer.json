@@ -1,0 +1,26 @@
+{
+    "name": "matalina/email",
+    "description": "An email module for a single page html site",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alicia Wilkerson",
+            "email": "alicia@akddev.net"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "swiftmailer/swiftmailer": "^6.2",
+        "vlucas/phpdotenv": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AkdDev\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
